@@ -1,7 +1,7 @@
 # 🚀 Workforce Management API
 
-This is my submission for the **Backend Developer Evaluation Assignment** by Railse.  
-It is a Spring Boot (Java 17) based REST API that simulates a workforce task management system with in-memory data storage.
+This is a Spring Boot (Java 17) based REST API that simulates a workforce task management system using in-memory data storage.  
+It allows creating, assigning, and managing tasks, including support for smart daily task views, dynamic priority handling, user comments, and full activity history logging.
 
 ---
 
