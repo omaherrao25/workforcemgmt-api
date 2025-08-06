@@ -47,13 +47,18 @@ It is a Spring Boot (Java 17) based REST API that simulates a workforce task man
 
 ## 📂 Project Structure
 
+```bash
 src/main/java/com/yourcompany/workforcemgmt/
-├── controller/ # REST endpoints
-├── service/ # Business logic
-├── dto/ # Data Transfer Objects
-├── model/ # Task model & enums
-├── repository/ # In-memory repository
-├── mapper/ # MapStruct mappers
-├── common/ # Response wrappers & exceptions
+├── controller/           # REST endpoints
+├── service/              # Business logic
+├── service/impl/         # Service implementations
+├── dto/                  # Data Transfer Objects
+├── model/                # Task model & enums
+├── repository/           # In-memory repository
+├── mapper/               # MapStruct mappers
+├── common/
+│   ├── exception/        # Global exception handling
+│   ├── model/
+│   │   ├── enums/        # Shared enums
+│   │   └── response/     # Response wrapper classes
 └── WorkforcemgmtApplication.java
-
